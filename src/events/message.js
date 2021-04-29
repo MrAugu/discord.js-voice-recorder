@@ -48,6 +48,7 @@ module.exports = class {
       await cmd.run(message, args, permissionLevel, reply);
     } catch (e) {
       reply(":warning: Something went wrong... The developers are already working on squashing this disgusting bug using some insecticides.");
+      throw e;
     }
   }
 };
