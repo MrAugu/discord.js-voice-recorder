@@ -1,0 +1,38 @@
+{
+  "name": "discord.js-voice-recorder",
+  "version": "1.0.0",
+  "description": "A discord.js voice recorder that also features Speech-To-Text via Google's API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAugu/discord.js-voice-recorder.git"
+  },
+  "keywords": [
+    "Discord",
+    "Voice",
+    "Discord.js",
+    "Recorder",
+    "Google",
+    "Cloud",
+    "Speech",
+    "To",
+    "Text",
+    "STT"
+  ],
+  "author": "MrAugu#7917 <mraugu@yahoo.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MrAugu/discord.js-voice-recorder/issues"
+  },
+  "homepage": "https://github.com/MrAugu/discord.js-voice-recorder#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "@google-cloud/speech": "^4.4.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "klaw": "^3.0.0"
+  }
+}
